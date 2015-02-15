@@ -127,9 +127,22 @@ ru:
   formtastic:
     yes: Да
     no: Нет
-    create: 'Создать %{model}'
-    update: 'Обновить %{model}'
-    submit: 'Подтвердить %{model}'
-    cancel: 'Отменить %{model}'
-    reset: 'Обновить %{model}'
+    create: 'Создать'
+    update: 'Обновить'
+    submit: 'Подтвердить'
+    cancel: 'Отменить'
+    reset: 'Обновить'
     required: 'обязательно'
+
+  activerecord:
+    models:
+      admin_user:
+        one: Пользователь
+        few: Пользователя
+        other: Пользователи
+        many: Пользователей
+
+    attributes:
+      admin_user:
+        password: Пароль
+        password_confirmation: Подтверждение пароля

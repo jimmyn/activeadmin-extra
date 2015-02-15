@@ -134,7 +134,7 @@ ru:
     reset: 'Обновить'
     required: 'обязательно'
 
-  activerecord:
+  default: &default
     models:
       admin_user:
         one: Пользователь
@@ -146,3 +146,11 @@ ru:
       admin_user:
         password: Пароль
         password_confirmation: Подтверждение пароля
+
+
+  activerecord:
+    <<: *default
+  mongoid:
+    <<: *default
+
+

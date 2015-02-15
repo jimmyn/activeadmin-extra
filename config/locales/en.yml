@@ -1,5 +1,0 @@
-en:
-  attributes:
-    _destroy: "Destroy"
-  active_admin:
-    errors: "Error! Unable to save changes"

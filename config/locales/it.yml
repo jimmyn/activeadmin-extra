@@ -1,5 +1,0 @@
-it:
-  attributes:
-    _destroy: "Elimina"
-  active_admin:
-    errors: "Errore! Impossibile salvare le modifiche"

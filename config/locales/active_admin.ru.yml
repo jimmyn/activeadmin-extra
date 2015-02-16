@@ -127,11 +127,11 @@ ru:
   formtastic:
     yes: Да
     no: Нет
-    create: 'Создать'
-    update: 'Обновить'
-    submit: 'Подтвердить'
-    cancel: 'Отменить'
-    reset: 'Обновить'
+    create: 'Создать %{model}'
+    update: 'Обновить %{model}'
+    submit: 'Подтвердить %{model}'
+    cancel: 'Отменить %{model}'
+    reset: 'Обновить %{model}'
     required: 'обязательно'
 
   default: &default

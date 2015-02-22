@@ -126,6 +126,23 @@ ru:
       grid: "Сетка"
       blog: "Блог"
 
+  views:
+    pagination:
+      first: "&laquo; Первая"
+      last: "Последняя &raquo;"
+      previous: "&lsaquo; Назад"
+      next: "Вперед &rsaquo;"
+      truncate: "&hellip;"
+    helpers:
+      page_entries_info:
+        one_page:
+          display_entries:
+            zero: "%{entry_name} не найдено"
+            one: "Показано <b>1</b> %{entry_name}"
+            other: "Показаны <b>все %{count}</b> %{entry_name}"
+        more_pages:
+          display_entries: "Показано %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> из <b>%{total}</b>"
+
   formtastic:
     yes: Да
     no: Нет

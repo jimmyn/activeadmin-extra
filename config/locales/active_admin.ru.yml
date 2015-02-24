@@ -153,6 +153,11 @@ ru:
     reset: 'Обновить %{model}'
     required: 'обязательно'
 
+  crop:
+    open_crop_modal: Обрезать изображение
+    save_cropped_image: Сохранить
+    cancel: Отменить
+
   default: &default
     models:
       admin_user:

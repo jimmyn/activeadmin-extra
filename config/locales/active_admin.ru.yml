@@ -126,6 +126,11 @@ ru:
       grid: "Сетка"
       blog: "Блог"
 
+    crop:
+      open_crop_modal: Обрезать изображение
+      save_cropped_image: Сохранить
+      cancel: Отменить
+
   views:
     pagination:
       first: "&laquo; Первая"
@@ -152,11 +157,6 @@ ru:
     cancel: 'Отменить %{model}'
     reset: 'Обновить %{model}'
     required: 'обязательно'
-
-  crop:
-    open_crop_modal: Обрезать изображение
-    save_cropped_image: Сохранить
-    cancel: Отменить
 
   default: &default
     models:
